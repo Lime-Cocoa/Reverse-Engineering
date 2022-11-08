@@ -63,7 +63,7 @@ link a.obj User32.lib
 其实该可执行文件所实现的功能是非常简单的，但是该可执行文件竟然有`75KB`，所以我们决定将其缩小，使用命令
 
 ```shell
-link /entry:mian a.obj User32.lib
+link /entry:main a.obj User32.lib
 ```
 
 ![](img/6.png)
